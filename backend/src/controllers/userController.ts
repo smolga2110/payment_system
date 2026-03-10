@@ -1,6 +1,5 @@
 import { Request, Response, NextFunction } from "express";
 import { User , ApiResponse } from "../types";
-import { error } from "node:console";
 
 let users: User[] = [
     { id: 1, name: "Allie Dawn", email: "allie@gmail.com", createdAt: new Date(), password: "1111"}
